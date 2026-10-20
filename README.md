@@ -52,6 +52,8 @@ Open http://localhost:5173.
 
 ### Deployment
 
+- Frontend source: https://github.com/sminthant/wad-course-web
+- Backend source: https://github.com/sminthant/wad-course-api
 - Frontend: https://wad-course-web.vercel.app
 - Backend API: https://wad-course-api.vercel.app
 
