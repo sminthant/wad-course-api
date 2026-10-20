@@ -59,7 +59,7 @@ Open http://localhost:5173.
 
 The frontend sends `/api` requests to its own host. Vercel forwards those requests to the backend, so the login cookie stays on the frontend site. Backend environment variables on Vercel are `MONGODB_URI`, `JWT_SECRET`, and `MONGODB_DB`.
 
-MongoDB Atlas must allow Vercel to connect. In Atlas, open Network Access and add `0.0.0.0/0`. Until that address is allowed, the deployed login returns an error even though the local app works.
+MongoDB Atlas Network Access includes `0.0.0.0/0`, so the deployed API can reach the database.
 
 ### 3. Testing Walkthrough
 
